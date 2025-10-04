@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Art Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wordle Art Generator</h1>
+        <div class="controls">
+            <input type="text" id="target-word" placeholder="Enter target word">
+            <button id="generate-btn">Generate Words</button>
+            <button id="clear-btn">Clear Grid</button>
+        </div>
+        <div id="grid-container" class="grid"></div>
+        <div class="results">
+            <h2>Generated Guesses:</h2>
+            <div id="results-container"></div>
+        </div>
+        <div id="status-bar">Ready</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
